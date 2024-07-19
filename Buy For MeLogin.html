@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy For Me</title>
+    <link rel="stylesheet" href="./assets/css/style1.css">
+    <link rel="stylesheet" href="./assets/css/style2.css">
+  </head>
+  <body>
+    <div id="__next">
+      <main>
+        <div class="flex h-screen justify-center">
+          <div class="flex h-screen overflow-y-auto scrollbar-hidden">
+            <div class="flex items-center">
+              <div class="flex w-[600px] h-max flex-col rounded-2xl border border-solid bg-white p-6 shadow-dropdown overflow-y-auto scrollbar-hidden tb:rounded-none tb:w-[100vw] tb:max-w-[600px] tb:p-4 tb:h-screen">
+                <a href="https://buyforme.vn/">
+                  <img alt="Buy For Me" class="mx-auto h-auto w-36" src="./assets/images/logo web buyforme2_20240529073142602.png">
+                </a>
+                <div class="flex flex-1 flex-col p-6 tb:px-0">
+                  <div class="w-full">
+                    <div class="w-full">
+                      <div class="flex w-full flex-row items-center justify-between">
+                        <h1 class="flex text-2xl font-bold text-ic-ink-6s tb:text-xl">Đăng nhập</h1>
+                        <div class="min-w-[35px]"></div>
+                      </div>
+                      <div class="mt-2 text-sm">
+                        <h2 class="mr-1 text-ic-ink-6s tb:text-sm">Bạn chưa có tài khoản?</h2>
+                        <a class="font-medium text-ic-primary-6s" href="https://buyforme.vn/auth/register">Đăng ký ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div id="switchContainer" class="m-auto mt-6 flex h-9 w-72 items-center justify-between overflow-hidden rounded-[26px] bg-ic-ink-1s text-sm">
+                      <button id="emailBtn" class="h-full w-1/2 cursor-pointer outline-none">
+                        <span class="w-full flex items-center justify-center h-full rounded-[26px] text-white bg-ic-brand-a">Email</span>
+                      </button>
+                      <button id="phoneBtn" class="h-full w-1/2 cursor-pointer outline-none">
+                        <span class="w-full flex items-center justify-center h-full rounded-[26px]">Số điện thoại</span>
+                      </button>
+                    </div>
+                    <form id="emailForm" class="mt-3">
+                      <!-- Nội dung form Email -->
+                       <!-- Email Form Content -->
+                        <div>
+                            <h3 class="mb-2 tb:text-sm">Email <span class="text-ic-red-6s"> *</span></h3>
+                            <div class="relative flex items-center gap-2 w-full border border-ic-ink-2s rounded-lg bg-ic-white-6s text-ic-ink-6s placeholder:text-sm placeholder:text-ic-ink-4s focus-within:border-ic-blue-6s focus-within:shadow-primary !h-12 px-4 py-3">
+                                <input id="emailInput" class="!outline-none text-sm font-normal leading-5 text-ic-ink-6s placeholder:text-sm !border-none bg-transparent read-only:cursor-default w-full outline-none border-none" placeholder="Email của bạn" autocomplete="on" name="email">
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <h3 class="mb-2 tb:text-sm">Mật khẩu <span class="text-ic-brand-a"> *</span></h3>
+                            <div class="relative flex items-center gap-2 w-full border border-ic-ink-2s rounded-lg bg-ic-white-6s text-ic-ink-6s placeholder:text-sm placeholder:text-ic-ink-4s focus-within:border-ic-blue-6s focus-within:shadow-primary !h-12 px-4 py-3">
+                                <input id="passwordInput" class="!outline-none text-sm font-normal leading-5 text-ic-ink-6s placeholder:text-sm !border-none bg-transparent read-only:cursor-default w-full outline-none border-none" type="password" placeholder="Mật khẩu của bạn" name="password">
+                            </div>
+                        </div>
+                        <div class="mt-3 flex items-center justify-between">
+                            <a class="text-sm font-medium text-ic-primary-6s" href="https://buyforme.vn/auth/forgot-password">Quên mật khẩu</a>
+                        </div>
+                        <button  id="loginBtn" disabled="" type="submit" class="align-middle select-none font-sans text-center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none py-3 rounded-lg shadow-gray-900/10 hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none flex items-center px-3 round-lg shadow-none normal-case font-medium hover:shadow-none hover:opacity-80 bg-ic-ink-3s text-ic-ink-5s border-none pointer-events-none h-12 text-base mt-6 w-full justify-center">Đăng nhập</button>
+                        
+        
+                    </form>
+                    <form id="phoneForm" class="mt-3 hidden">
+                      <!-- Nội dung form Số điện thoại -->
+                        <div>
+                            <h3 class="mb-2 tb:text-sm">Số điện thoại <span class="text-ic-red-6s"> *</span></h3>
+                            <div class="flex rounded-lg border transition-[border-color,box-shadow] focus-within:border-ic-blue-6s focus-within:shadow-primary bg-ic-white-6s border-ic-ink-2s h-12 px-4 py-3">
+                                <button type="button" class="mr-2 flex w-fit items-center justify-between border-r border-r-ic-ink-2s pr-[2px] text-sm text-ic-ink-6s outline-none">
+                                    <div class="flex items-center">
+                                        <svg width="24" height="24" viewBox="0 0 56 38" fill="none" xmlns="http://www.w3.org/2000/svg" class="VN">
+                                            <g clip-path="url(#clip0_8723_1446)">
+                                                <path d="M21.5076 0.146729H0V37.4793H56V0.146729H21.5076Z" fill="#D80027"></path>
+                                                <path d="M28 8.01538L30.4788 15.644H38.5L32.0106 20.3587L34.4894 27.9875L28 23.2726L21.5106 27.9875L23.9894 20.3587L17.5 15.644H25.5212L28 8.01538Z" fill="#FFDA44"></path>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_8723_1446">
+                                                    <rect y="0.14624" width="56" height="37.3333" rx="4" fill="white"></rect>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                    <p class="text-ic-ink-6s text-sm font-normal leading-[20px] ml-1">+84</p>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="transition-[transform]">
+                                            <path d="M8 10L12 14L16 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
+                                </button>
+                                <input id= "phoneInput" type="text" placeholder="Số điện thoại" class="text-inks-6 bg-transparent text-sm font-normal leading-6 placeholder:text-inks-4 w-full outline-none border-none" autocomplete="off" value="">
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <h3 class="mb-2 tb:text-sm">Mật khẩu <span class="text-ic-brand-a"> *</span></h3>
+                            <div class="relative flex items-center gap-2 w-full border border-ic-ink-2s rounded-lg bg-ic-white-6s text-ic-ink-6s placeholder:text-sm placeholder:text-ic-ink-4s focus-within:border-ic-blue-6s focus-within:shadow-primary !h-12 px-4 py-3">
+                                <input  id="phonePasswordInput" class="!outline-none text-sm font-normal leading-5 text-ic-ink-6s placeholder:text-sm !border-none bg-transparent read-only:cursor-default w-full outline-none border-none" type="password" placeholder="Mật khẩu của bạn" name="password">
+                            </div>
+                        </div>
+                        <div class="mt-3 flex items-center justify-between">
+                            <a class="text-sm font-medium text-ic-primary-6s" href="/auth/forgot-password">Quên mật khẩu</a>
+                            <button class="align-middle select-none font-sans text-center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none py-3 rounded-lg hover:bg-gray-900/10 active:bg-gray-900/20 flex items-center justify-center px-3 round-lg shadow-none normal-case text-sm font-medium hover:shadow-none bg-none border-none text-ic-primary-6s h-8" type="button">Gửi OTP qua SMS</button>
+                        </div>
+                        <button id="phoneLoginBtn" disabled="" type="submit" class="align-middle select-none font-sans text-center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none py-3 rounded-lg shadow-gray-900/10 hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none flex items-center px-3 round-lg shadow-none normal-case font-medium hover:shadow-none hover:opacity-80 bg-ic-ink-3s text-ic-ink-5s border-none pointer-events-none h-12 text-base mt-6 w-full justify-center">Đăng nhập</button>
+                    </form>
+                  </div>
+                  <div class="mt-6 w-full">
+                    <div class="text-center text-sm text-ic-ink-5s">
+                      <span>Hoặc đăng nhập với</span>
+                    </div>
+                    <div class="mt-6 flex flex-row items-center justify-center gap-2">
+                      <a href="#">
+                        <img alt="Google" width="40" height="40" src="./assets/icon/gg.svg">
+                      </a>
+                      <a href="#">
+                        <img alt="Facebook" width="40" height="40" src="./assets/icon/fb.svg">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="mt-auto">
+                    <hr>
+                    <div class="mt-6 text-center text-sm text-ic-ink-5s">
+                      <span>Bằng cách tiếp tục, bạn đồng ý với <a class="text-ic-primary-6s" href="#">Điều khoản dịch vụ</a> và <a class="text-ic-primary-6s" href="#">Chính sách quyền riêng tư</a> của chúng tôi. </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+   
+    <script src="./assets/js/login.js"></script>
+
+  </body>
+</html>

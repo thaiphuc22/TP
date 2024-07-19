@@ -49,29 +49,25 @@
                   <header class="mx-auto max-w-[1200px]">
                      <div class="flex items-center justify-between">
                         <div class="flex items-center">
-                           <div class="mr-3 border-r border-r-ic-ink-2s pr-3">
+                           <div id = "downloadApp" class="mr-3 border-r border-r-ic-ink-2s pr-3" style="cursor: pointer;">
                               <p class="text-ic-ink-6s text-xs font-normal leading-[16px]">Tải ứng dụng</p>
                            </div>
                            <div class="mr-3 border-r border-r-ic-ink-2s pr-3">
                               <div class="flex items-center gap-1">
                                  <p class="text-ic-ink-6s text-xs font-normal leading-[16px]">Kết nối</p>
-                                 <svg class="inline-block" width="16" height="16">
-                                    <use xlink:href="/images/sprite-icon.svg#svg-connect-fb"></use>
-                                 </svg>
-                                 <svg class="inline-block" width="16" height="16">
-                                    <use xlink:href="/images/sprite-icon.svg#svg-connect-insta"></use>
-                                 </svg>
+                                 <img class="inline-block" width="16" height="16" src="./assets/icon/Facebook, Circle.svg">
+                                 <img class="inline-block" width="16" height="16" src="./assets/icon/Instagram.svg">
                               </div>
                            </div>
                            <p class="text-ic-ink-6s text-xs font-normal leading-[16px]">Hỗ trợ 24/7: 1900 2568</p>
                         </div>
                         <div class="flex items-center">
                            <div class="relative mr-5 before:absolute before:-right-2 before:top-1/2 before:h-4 before:w-px before:-translate-y-1/2 before:bg-ic-ink-2s before:content-[&#39;&#39;]">
-                              <button class="flex items-center gap-2 p-1 rounded hover:bg-ic-light transition-[background-color]">
-                                 <svg class="relative text-ic-ink-6s inline-block" width="24" height="24" color="text-ic-primary-6s">
-                                    <use xlink:href="/images/sprite-icon.svg#svg-noti"></use>
-                                 </svg>
-                              </button>
+                              <a href="./Buy For MeLogin.html">
+                                 <button class="flex items-center gap-2 p-1 rounded hover:bg-ic-light transition-[background-color]">
+                                    <img class="relative text-ic-ink-6s inline-block" width="24" height="24" color="text-ic-primary-6s" src="./assets/icon/bell-notification.svg">
+                                 </button>
+                              </a>
                            </div>
                            <div class="relative before:absolute before:-right-2 before:top-1/2 before:h-4 before:w-px before:-translate-y-1/2 before:bg-ic-ink-2s before:content-[&#39;&#39;]">
                               <button class="flex items-center gap-2 p-1 rounded hover:bg-ic-light transition-[background-color]" aria-expanded="false" aria-haspopup="menu" id=":r8:">
@@ -82,9 +78,9 @@
                               </button>
                            </div>
                            <div class="relative ml-4 before:absolute before:-right-2 before:top-1/2 before:h-4 before:-translate-y-1/2 ">
-                            <a href="https://buyforme.vn/auth/login">
+                            <a href="./Buy For MeLogin.html">
                                  <button id=":r4:" class="flex items-center gap-2 p-1 rounded hover:bg-ic-light transition-[background-color] account-cn" aria-expanded="false" aria-haspopup="menu">
-                                 <svg class="inline-block" width="24" height="24">
+                                 <img class="inline-block" width="24" height="24" src="./assets/icon/Avatar.svg">
                                     <use xlink:href="/images/sprite-icon.svg#svg-user-avatar"></use>
                                  </svg>
                                  <p class="text-ic-ink-6s text-xs font-medium leading-[16px]">Đăng nhập</p>
@@ -166,7 +162,7 @@
                               </div>
                            </div>
                            <div class="ml-6">
-                            <a href="https://buyforme.vn/auth/login">
+                            <a href="./Buy For MeLogin.html">
                                 <button id="deposit-points-id" class="align-middle select-none font-sans text-center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none py-3 rounded-lg shadow-gray-900/10 hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none flex items-center justify-center px-3 round-lg shadow-none normal-case text-sm font-medium hover:shadow-none text-ic-white-6s hover:opacity-80 h-10 bg-ic-white-6s hover:bg-ic-white-4s deposit-points-cn" type="button">
                                     <span class="mr-1">
                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="24" height="24" class="coin-growth text-ic-ink-6s">
@@ -184,9 +180,7 @@
                            <div class="ml-4">
                               <div class="relative">
                                  <button id="cart-id" type="button" class="peer relative size-10 rounded-lg transition-[background-color] hover:bg-ic-ink-2s cart-cn">
-                                    <svg class="inline-block" width="24" height="24">
-                                       <use xlink:href="/images/sprite-icon.svg#svg-cart"></use>
-                                    </svg>
+                                    <img class="inline-block" width="24" height="24" src="./assets/icon/Basket.svg">
                                     <div class="absolute right-0 top-0 flex size-4 items-center justify-center rounded-full bg-ic-red-6s">
                                        <p class="text-xs font-medium leading-[16px] text-ic-white-6s">0</p>
                                     </div>
@@ -300,12 +294,10 @@
                            </div>
                            <div class="rounded-lg bg-white p-4">
                               <p class="pb-2 text-base font-bold">Nổi bật</p>
-                              <a href="https://buyforme.vn/auth/login">
+                              <a href="./Buy For MeLogin.html">
                                  <div class="my-2 flex items-center gap-3">
                                     <div class="grid size-[32px] items-center justify-center rounded-lg bg-[#cccc]">
-                                       <svg class="size-4 inline-block" width="16" height="16">
-                                          <use xlink:href="/images/sprite-icon.svg#svg-transport"></use>
-                                       </svg>
+                                       <img class="size-4 inline-block" width="16" height="16" src="./assets/icon/delivery.svg">
                                     </div>
                                     <p class="text-sm font-medium">Vận chuyển</p>
                                  </div>
@@ -313,9 +305,8 @@
                               <a href="https://buyforme.vn/docs">
                                  <div class="my-2 flex items-center gap-3">
                                     <div class="grid size-[32px] items-center justify-center rounded-lg bg-[#cccc]">
-                                       <svg class="size-4 inline-block" width="16" height="16">
-                                          <use xlink:href="/images/sprite-icon.svg#svg-guid"></use>
-                                       </svg>
+                                       <img class="size-4 inline-block" width="16" height="16" src="./assets/icon/idea-light-lamp-square.svg">
+                                        
                                     </div>
                                     <p class="text-sm font-medium">Hướng dẫn</p>
                                  </div>
@@ -340,47 +331,33 @@
                                        
                                     </div>
                                  </div>
-                                 <button class="rounded-full w-7 h-7 flex items-center justify-center absolute z-50 top-1/2 -translate-y-1/2 -left-7 group-hover:left-0 transition-[left] bg-ic-black-2s" disabled="">
-                                    <svg class="rotate-180 text-ic-white-6s inline-block" width="24" height="24">
-                                       <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                    </svg>
-                                 </button>
-                                 <button class="rounded-full w-7 h-7 bg-ic-black-4s flex items-center justify-center absolute z-50 top-1/2 -translate-y-1/2 -right-7 group-hover:right-0 transition-[right]">
-                                    <svg class="text-ic-white-6s inline-block" width="24" height="24">
-                                       <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                    </svg>
-                                 </button>
                               </div>
                               <div class="flex justify-between gap-3 rounded-lg bg-ic-white-6s px-4 py-3 tb:rounded-none tb:py-2 tb:overflow-x-auto tb:scrollbar-hidden tb:max-w-full">
                                  <a class="flex flex-1 flex-col items-center justify-center gap-1 tb:shrink-0 tb:flex-row" href="https://buyforme.vn/#">
                                     <div class="flex size-8 items-center justify-center rounded-lg bg-ic-orange-2s">
-                                       <svg class="inline-block" width="24" height="24">
-                                          <use xlink:href="/images/sprite-icon.svg#svg-security"></use>
-                                       </svg>
+                                       <image class="inline-block" width="24" height="24" src="./assets/icon/credit-card-security-protection.svg">
+                                          
                                     </div>
                                     <p class="text-ic-ink-6s text-sm font-medium leading-[20px] tb:text-nowrap">Bảo mật thanh toán</p>
                                  </a>
                                  <a class="flex flex-1 flex-col items-center justify-center gap-1 tb:shrink-0 tb:flex-row" href="https://buyforme.vn/#">
                                     <div class="flex size-8 items-center justify-center rounded-lg bg-ic-orange-2s">
-                                       <svg class="inline-block" width="24" height="24">
-                                          <use xlink:href="/images/sprite-icon.svg#svg-ensure"></use>
-                                       </svg>
+                                       <img class="inline-block" width="24" height="24" src="./assets/icon/order.svg">
+                                          
                                     </div>
                                     <p class="text-ic-ink-6s text-sm font-medium leading-[20px] tb:text-nowrap">Đảm bảo giao hàng</p>
                                  </a>
                                  <a class="flex flex-1 flex-col items-center justify-center gap-1 tb:shrink-0 tb:flex-row" href="https://buyforme.vn/#">
                                     <div class="flex size-8 items-center justify-center rounded-lg bg-ic-orange-2s">
-                                       <svg class="inline-block" width="24" height="24">
-                                          <use xlink:href="/images/sprite-icon.svg#svg-quality-assurance"></use>
-                                       </svg>
+                                       <img class="inline-block" width="24" height="24" src="./assets/icon/item-checkmark.svg">
+                                          
                                     </div>
                                     <p class="text-ic-ink-6s text-sm font-medium leading-[20px] tb:text-nowrap">Đảm bảo chất lượng</p>
                                  </a>
                                  <a class="flex flex-1 flex-col items-center justify-center gap-1 tb:shrink-0 tb:flex-row" href="https://buyforme.vn/#">
                                     <div class="flex size-8 items-center justify-center rounded-lg bg-ic-orange-2s">
-                                       <svg class="inline-block" width="24" height="24">
-                                          <use xlink:href="/images/sprite-icon.svg#svg-order"></use>
-                                       </svg>
+                                       <img class="inline-block" width="24" height="24" src="./assets/icon/laptop-basket-fast-order.svg">
+                                          
                                     </div>
                                     <p class="text-ic-ink-6s text-sm font-medium leading-[20px] tb:text-nowrap">Order nhanh chóng</p>
                                  </a>
@@ -398,17 +375,14 @@
                                  <div class="flex flex-1 flex-col items-center justify-center gap-2">
                                     <a href="https://apps.apple.com/us/app/buyforme-cross-border/id6479628632" target="_blank" class="w-full">
                                        <div class="flex w-full items-center justify-center gap-2 rounded-[20px] border-2 px-3 py-2">
-                                          <svg class="inline-block" width="24" height="24">
-                                             <use xlink:href="/images/sprite-icon.svg#svg-apple"></use>
-                                          </svg>
+                                          <img class="inline-block" width="24" height="24" src="./assets/icon/Apple.svg">
+                                             
                                           <p class="text-ic-ink-6s text-sm font-medium leading-[20px]">IOS</p>
                                        </div>
                                     </a>
                                     <a href="https://play.google.com/store/apps/details?id=com.ichiba.buyforme" target="_blank" class="w-full">
                                        <div class="flex w-full items-center justify-center gap-2 rounded-[20px] border-2 px-3 py-2">
-                                          <svg class="inline-block" width="24" height="24">
-                                             <use xlink:href="/images/sprite-icon.svg#svg-google-play"></use>
-                                          </svg>
+                                          <img class="inline-block" width="24" height="24" src="./assets/icon/Android.svg">
                                           <p class="text-ic-ink-6s text-sm font-medium leading-[20px]">Android</p>
                                        </div>
                                     </a>
@@ -429,9 +403,7 @@
                               </div>
                               <a class="flex items-center gap-1 whitespace-nowrap text-sm font-medium text-ic-primary-6s" href="https://buyforme.vn/notices">
                                  Xem tất cả
-                                 <svg class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16">
-                                    <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                 </svg>
+                                 <img class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16" src="./assets/icon/Arrow.svg">
                               </a>
                            </div>
                         </div>
@@ -445,9 +417,7 @@
                                  </div>
                                  <a class="group flex items-center gap-1" href="https://buyforme.vn/ebay/deal">
                                     <p class="text-sm font-medium leading-[20px] text-ic-primary-6s">Xem tất cả</p>
-                                    <svg class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16">
-                                       <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                    </svg>
+                                    <img class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16" src="./assets/icon/Arrow.svg">
                                  </a>
                               </div>
                               <ul class="grid grid-cols-5 gap-2 tb:flex tb:gap-3 tb:overflow-x-auto tb:scrollbar-hidden tb:justify-stretch tb:px-4">
@@ -602,9 +572,7 @@
                                  </div>
                                  <a class="group flex items-center gap-1" href="https://buyforme.vn/amazon-us/deal">
                                     <p class="text-sm font-medium leading-[20px] text-ic-primary-6s">Xem tất cả</p>
-                                    <svg class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16">
-                                       <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                    </svg>
+                                    <img class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16" src="./assets/icon/Arrow.svg">
                                  </a>
                               </div>
                               <ul class="grid grid-cols-5 gap-2 tb:flex tb:gap-3 tb:overflow-x-auto tb:scrollbar-hidden tb:justify-stretch tb:px-4">
@@ -763,9 +731,7 @@
                                  </div>
                                  <a class="group flex items-center gap-1" href="https://buyforme.vn/macys/deal">
                                     <p class="text-sm font-medium leading-[20px] text-ic-primary-6s">Xem tất cả</p>
-                                    <svg class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16">
-                                       <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                    </svg>
+                                    <img class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16" src="./assets/icon/Arrow.svg">
                                  </a>
                               </div>
                               <ul class="grid grid-cols-5 gap-2 tb:flex tb:gap-3 tb:overflow-x-auto tb:scrollbar-hidden tb:justify-stretch tb:px-4">
@@ -924,9 +890,7 @@
                                  </div>
                                  <a class="group flex items-center gap-1" href="https://buyforme.vn/mercari-partner/deal">
                                     <p class="text-sm font-medium leading-[20px] text-ic-primary-6s">Xem tất cả</p>
-                                    <svg class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16">
-                                       <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                    </svg>
+                                    <img class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16" src="./assets/icon/Arrow.svg">
                                  </a>
                               </div>
                               <ul class="grid grid-cols-5 gap-2 tb:flex tb:gap-3 tb:overflow-x-auto tb:scrollbar-hidden tb:justify-stretch tb:px-4">
@@ -1085,9 +1049,7 @@
                                  </div>
                                  <a class="group flex items-center gap-1" href="https://buyforme.vn/paypay-fleamarket/deal">
                                     <p class="text-sm font-medium leading-[20px] text-ic-primary-6s">Xem tất cả</p>
-                                    <svg class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16">
-                                       <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                    </svg>
+                                    <img class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16" src="./assets/icon/Arrow.svg">
                                  </a>
                               </div>
                               <ul class="grid grid-cols-5 gap-2 tb:flex tb:gap-3 tb:overflow-x-auto tb:scrollbar-hidden tb:justify-stretch tb:px-4">
@@ -1246,9 +1208,7 @@
                                  </div>
                                  <a class="group flex items-center gap-1" href="https://buyforme.vn/rakuma/deal">
                                     <p class="text-sm font-medium leading-[20px] text-ic-primary-6s">Xem tất cả</p>
-                                    <svg class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16">
-                                       <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                    </svg>
+                                    <img class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16" src="./assets/icon/Arrow.svg">
                                  </a>
                               </div>
                               <ul class="grid grid-cols-5 gap-2 tb:flex tb:gap-3 tb:overflow-x-auto tb:scrollbar-hidden tb:justify-stretch tb:px-4">
@@ -1407,9 +1367,7 @@
                                  </div>
                                  <a class="group flex items-center gap-1" href="https://buyforme.vn/yahoo-shopping/deal">
                                     <p class="text-sm font-medium leading-[20px] text-ic-primary-6s">Xem tất cả</p>
-                                    <svg class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16">
-                                       <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                    </svg>
+                                    <img class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16" src="./assets/icon/Arrow.svg">
                                  </a>
                               </div>
                               <ul class="grid grid-cols-5 gap-2 tb:flex tb:gap-3 tb:overflow-x-auto tb:scrollbar-hidden tb:justify-stretch tb:px-4">
@@ -1563,9 +1521,7 @@
                                  </div>
                                  <a class="group flex items-center gap-1" href="https://buyforme.vn/rakuten/deal">
                                     <p class="text-sm font-medium leading-[20px] text-ic-primary-6s">Xem tất cả</p>
-                                    <svg class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16">
-                                       <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                    </svg>
+                                    <img class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16" src="./assets/icon/Arrow.svg">
                                  </a>
                               </div>
                               <ul class="grid grid-cols-5 gap-2 tb:flex tb:gap-3 tb:overflow-x-auto tb:scrollbar-hidden tb:justify-stretch tb:px-4">
@@ -1724,9 +1680,7 @@
                                  </div>
                                  <a class="group flex items-center gap-1" href="https://buyforme.vn/zozo/deal">
                                     <p class="text-sm font-medium leading-[20px] text-ic-primary-6s">Xem tất cả</p>
-                                    <svg class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16">
-                                       <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                    </svg>
+                                    <img class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16" src="./assets/icon/Arrow.svg">
                                  </a>
                               </div>
                               <ul class="grid grid-cols-5 gap-2 tb:flex tb:gap-3 tb:overflow-x-auto tb:scrollbar-hidden tb:justify-stretch tb:px-4">
@@ -1885,9 +1839,7 @@
                                  </div>
                                  <a class="group flex items-center gap-1" href="https://buyforme.vn/amazon-jp/deal">
                                     <p class="text-sm font-medium leading-[20px] text-ic-primary-6s">Xem tất cả</p>
-                                    <svg class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16">
-                                       <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                    </svg>
+                                    <img class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16" src="./assets/icon/Arrow.svg">
                                  </a>
                               </div>
                               <ul class="grid grid-cols-5 gap-2 tb:flex tb:gap-3 tb:overflow-x-auto tb:scrollbar-hidden tb:justify-stretch tb:px-4">
@@ -2046,9 +1998,7 @@
                                  </div>
                                  <a class="group flex items-center gap-1" href="https://buyforme.vn/coupang/deal">
                                     <p class="text-sm font-medium leading-[20px] text-ic-primary-6s">Xem tất cả</p>
-                                    <svg class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16">
-                                       <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                    </svg>
+                                    <img class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16" src="./assets/icon/Arrow.svg">
                                  </a>
                               </div>
                               <ul class="grid grid-cols-5 gap-2 tb:flex tb:gap-3 tb:overflow-x-auto tb:scrollbar-hidden tb:justify-stretch tb:px-4">
@@ -2207,9 +2157,7 @@
                                  </div>
                                  <a class="group flex items-center gap-1" href="https://buyforme.vn/tmon/deal">
                                     <p class="text-sm font-medium leading-[20px] text-ic-primary-6s">Xem tất cả</p>
-                                    <svg class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16">
-                                       <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                    </svg>
+                                    <img class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16" src="./assets/icon/Arrow.svg">
                                  </a>
                               </div>
                               <ul class="grid grid-cols-5 gap-2 tb:flex tb:gap-3 tb:overflow-x-auto tb:scrollbar-hidden tb:justify-stretch tb:px-4">
@@ -2378,9 +2326,8 @@
                               </div>
                               <a class="flex items-center gap-1 whitespace-nowrap text-sm font-medium text-ic-primary-6s" href="https://buyforme.vn/blogs">
                                  Xem tất cả
-                                 <svg class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16">
-                                    <use xlink:href="/images/sprite-icon.svg#svg-arrow-right"></use>
-                                 </svg>
+                                 <img class="size-4 text-ic-primary-6s tb:hidden inline-block" width="16" height="16" src="./assets/icon/Arrow.svg">
+                                    
                               </a>
                            </div>
                            <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
@@ -2421,7 +2368,7 @@
                               <div class="swiper-button-next swiper-button-disabled swiper-button-lock"></div>
                            </div>
                         </section>
-                        <div class="group  relative h-[527px] max-w-[974px] bg-[url(&#39;https://test-api.ichiba.net/storage/files/janboxv3/apps/public/files/2023/12/27/Group%2019652_20231227031122630.png&#39;)] bg-cover pt-10 text-white">
+                        <div id="downloadAppBanner" class="group  relative h-[527px] max-w-[974px] bg-[url(&#39;https://test-api.ichiba.net/storage/files/janboxv3/apps/public/files/2023/12/27/Group%2019652_20231227031122630.png&#39;)] bg-cover pt-10 text-white">
                            <div class="max-w-[563px] px-[55px] ">
                               <p class="mb-6 text-3xl font-bold">Tải app Buy For Me!</p>
                               <div class="mb-6 grid">
@@ -2439,17 +2386,13 @@
                                  <div class="grid gap-4">
                                     <a href="https://buyforme.vn/[market]">
                                        <div class="flex w-full items-center justify-center gap-2 rounded-lg bg-white px-3 py-2">
-                                          <svg class="size-6 inline-block" width="24" height="24">
-                                             <use xlink:href="/images/sprite-icon.svg#svg-apple"></use>
-                                          </svg>
+                                          <img class="inline-block" width="24" height="24" src="./assets/icon/Apple.svg">
                                           <p class="items-center text-sm font-medium text-ic-black-7s">IOS</p>
                                        </div>
                                     </a>
                                     <a target="_blank" href="https://play.google.com/store/apps/details?id=com.ichiba.buyforme">
                                        <div class="flex w-full items-center justify-center gap-2 rounded-lg bg-white px-3 py-2">
-                                          <svg class="size-6 inline-block" width="24" height="24">
-                                             <use xlink:href="/images/sprite-icon.svg#svg-google-play"></use>
-                                          </svg>
+                                          <img class="inline-block" width="24" height="24" src="./assets/icon/Android.svg">
                                           <p class="text-sm font-medium text-ic-black-7s">Android</p>
                                        </div>
                                     </a>
@@ -2503,29 +2446,20 @@
                                  <p class="pb-4 text-sm font-bold">Kết nối với Buy For Me</p>
                                  <div class="flex gap-4">
                                     <div class="size-10 rounded-full bg-ic-ink-2s p-2">
-                                       <svg class="size-6 inline-block" width="24" height="24">
-                                          <use xlink:href="/images/sprite-icon.svg#svg-icon-facebook"></use>
-                                       </svg>
+                                       <img class="size-6 inline-block" width="24" height="24" src="./assets/icon/Facebook.svg">
+                                         
                                     </div>
                                     <div class="size-10 rounded-full bg-ic-ink-2s p-2">
-                                       <svg class="size-6 inline-block" width="24" height="24">
-                                          <use xlink:href="/images/sprite-icon.svg#svg-icon-twitter"></use>
-                                       </svg>
+                                       <img class="size-6 inline-block" width="24" height="24" src="./assets/icon/Twitter, Square.svg">
                                     </div>
                                     <div class="size-10 rounded-full bg-ic-ink-2s p-2">
-                                       <svg class="size-6 inline-block" width="24" height="24">
-                                          <use xlink:href="/images/sprite-icon.svg#svg-icon-youtube"></use>
-                                       </svg>
+                                       <img class="size-6 inline-block" width="24" height="24" src="./assets/icon/Youtube, Square.svg">
                                     </div>
                                     <div class="size-10 rounded-full bg-ic-ink-2s p-2">
-                                       <svg class="size-6 inline-block" width="24" height="24">
-                                          <use xlink:href="/images/sprite-icon.svg#svg-icon-linked"></use>
-                                       </svg>
+                                       <img class="size-6 inline-block" width="24" height="24" src="./assets/icon/Linkedin.svg">
                                     </div>
                                     <div class="size-10 rounded-full bg-ic-ink-2s p-2">
-                                       <svg class="size-6 inline-block" width="24" height="24">
-                                          <use xlink:href="/images/sprite-icon.svg#svg-icon-tiktok"></use>
-                                       </svg>
+                                       <img class="size-6 inline-block" width="24" height="24" src="./assets/icon/tiktok-square.svg">
                                     </div>
                                  </div>
                               </div>
@@ -2584,7 +2518,8 @@
          </main>
       </div>
       
-      
+      <!-- Import main.js -->
+      <script src="./assets/js/main.js"></script>
 
       <!-- import Jquery -->
     <script src="./library/jquery-3.7.1.min.js"></script>
